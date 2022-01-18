@@ -10,5 +10,7 @@ namespace StudentMVCWeb.Data
         }
 
         public DbSet<Student> students { get; set; }
+
+        public DbSet<Book> Book { get; set; }
     }
 }
