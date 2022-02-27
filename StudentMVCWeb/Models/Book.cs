@@ -8,6 +8,7 @@ namespace StudentMVCWeb.Models
 
         [Required]
         [Display()]
+
         public string BookName { get; set; } = string.Empty;
 
         public decimal Price { get; set; }
